@@ -9,7 +9,7 @@ function rollDice(){
         title="Player2 Win";
     }
     else{
-        title="Draw";
+        title="Draw        ";
     }
     document.querySelector("h1").textContent = title;
     const img1 = "./images/dice"+num1+".png";
